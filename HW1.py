@@ -1,7 +1,1 @@
-*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-
-_You **can** combine them_
+$$\begin{aligned} &\text{minimize:} && (x_1-x_2)^2 + (x_2+x_3-2)^2 + (x_4-1)^2+(x_5-1)^2 \\ &\text{subject to:} && x_1 + 3x_2 = 0 \\ &&& x_3 + x_4 - 2x_5 = 0 \\ &&& x_2 - x_5 = 0 \\ &&& -10 \leq x_i \leq 10, ~i=1,\ldots,5 \end{aligned}$$
